@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:padding="8dp">
+    <LinearLayout
+        android:id="@+id/ll_find"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_outline_location_on_24"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#005BFF"
+            android:textSize="18sp"
+            android:text="Find people Nearby"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height=".7dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:background="@color/white" />
+    <LinearLayout
+        android:id="@+id/ll_invinite"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_outline_person_add_24"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#005BFF"
+            android:textSize="18sp"
+            android:text="Invite Friend"/>
+    </LinearLayout>
+</LinearLayout>
