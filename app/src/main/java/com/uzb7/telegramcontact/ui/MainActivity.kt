@@ -43,11 +43,6 @@ class MainActivity : AppCompatActivity() {
             "5 minut ego"
         ))
         mylist.add(Contact(
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lada_%287906678894%29_%282%29.jpg/1200px-Lada_%287906678894%29_%282%29.jpg",
-            "Abdurahmon",
-            "long time no entry"
-        ))
-        mylist.add(Contact(
             "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTc5OTk2ODUyMTMxNzM0ODcy/gettyimages-1229892983-square.jpg",
             "Elon Musk",
             "online"
